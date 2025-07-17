@@ -32,7 +32,7 @@ It enables **private, censorship-resistant transport** of network traffic throug
 
 ```bash
     wget https://raw.githubusercontent.com/mrhn3242/WgOverHysteria/main/setup-hysteria-server.sh
-    chmod +x setup-origin-server.sh
+    chmod +x setup-hysteria-server.sh
     ./setup-hysteria-server.sh
 ```
 
