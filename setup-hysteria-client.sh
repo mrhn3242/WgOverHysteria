@@ -88,3 +88,19 @@ EOF
 
 echo "✅ Wireguard setup completed. reboot your server"
 echo "After reboot run sudo wg-quick up wg1"
+
+
+<?php
+$ip = $_SERVER['REMOTE_ADDR'];
+?>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Abuse Check</title>
+</head>
+<body style="background-color: #eaffea; text-align: center; font-family: Arial;">
+    <h1 style="color: green;">✅ Your IP Address is fine</h1>
+    <p>Your IP: <strong><?php echo htmlspecialchars($ip); ?></strong></p>
+    <p>Your IP was not found on our database as a bad IP</p>
+</body>
+</html>
